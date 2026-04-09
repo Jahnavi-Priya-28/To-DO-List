@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultimate To-Do Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div>
+      <h1>✨ Ultimate Productivity To-Do App</h1>
+      <p class="tagline">Plan • Prioritize • Complete</p>
+    </div>
+    <button class="theme-btn" onclick="toggleTheme()">
+      🎨 Theme: <span id="themeLabel">Default</span>
+    </button>
+  </header>
+
+  <main class="app">
+    <!-- Input Card -->
+    <section class="card input-card">
+      <h2>Add a new task</h2>
+      <div class="input-row">
+        <input
+          type="text"
+          id="taskTitle"
+          placeholder="Task title (e.g., Complete internship project)"
+        />
+        <select id="taskPriority">
+          <option value="low">Low priority</option>
+          <option value="medium">Medium priority</option>
+          <option value="high">High priority</option>
+        </select>
+      </div>
+
+      <textarea
+        id="taskDesc"
+        rows="3"
+        placeholder="Task description / details..."
+      ></textarea>
+
+      <button class="add-btn" onclick="addTask()">＋ Add Task</button>
+    </section>
+
+    <!-- Lists -->
+    <section class="columns">
+      <div class="card column">
+        <h2>🕒 Pending Tasks</h2>
+        <ul id="pendingList" class="task-list"></ul>
+      </div>
+
+      <div class="card column">
+        <h2>✅ Completed Tasks</h2>
+        <ul id="completedList" class="task-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by <span class="your-name">JAHNAVI PRIYA</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
