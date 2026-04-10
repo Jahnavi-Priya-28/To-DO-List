@@ -14,6 +14,6 @@ HTML • CSS • JavaScript
 
 This project helped me strengthen my frontend development skills and understand real-world user interaction design.
 
-🔗 Check out the project: [Add your GitHub link]
+🔗 Check out the project: [(https://github.com/Jahnavi-Priya-28/To-DO-List/tree/main)]
 
 #WebDevelopment #Frontend #JavaScript #Projects #LearningByBuilding #100DaysOfCode
