@@ -1,22 +1,19 @@
-# To-DO-List
-📝 To-Do Web App
+🚀 Built an Ultimate Productivity To-Do Web App
 
-A simple and responsive To-Do web application that helps users manage daily tasks efficiently.
+Excited to share my latest project where I designed and developed a fully functional To-Do application with a modern UI and smooth user experience.
 
-🚀 Features
-Add new tasks
-Mark tasks as completed
-Delete tasks
-Responsive design (works on mobile & desktop)
-Persistent storage (if using localStorage / database)
-🛠️ Tech Stack
-HTML
-CSS
-JavaScript
-(Add/remove based on your project, e.g. React, Node.js, MongoDB, etc.)
-📂 Project Structure
-todo-app/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
+✨ Key Features:
+• Add, edit, delete tasks
+• Mark tasks as completed
+• Priority-based task management
+• Multiple theme modes (Default, Sunrise, Pastel, Cyberpunk)
+• Local storage for persistent data
+
+🛠 Tech Stack:
+HTML • CSS • JavaScript
+
+This project helped me strengthen my frontend development skills and understand real-world user interaction design.
+
+🔗 Check out the project: [Add your GitHub link]
+
+#WebDevelopment #Frontend #JavaScript #Projects #LearningByBuilding #100DaysOfCode
